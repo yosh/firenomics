@@ -20,3 +20,5 @@ Version 0.2:
   [ ] /me page for when you are logged in
 
   [ ] old service had /profile/{num} new has /profiles/{num}, revert to old
+
+  [ ] deal with 410/401
