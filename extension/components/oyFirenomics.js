@@ -205,10 +205,13 @@ Firenomics.prototype = {
         }
         //openUILinkIn('http://firenomics.appspot.com/home', 'tab');
       }
-      if (req.status == 410) {
+      else if (req.status == 410) {
         auth.clear();
         var user = nsJSON.decode(req.responseText);
         auth.set(user.profile, user.secret);
+      }
+      else if (req.status == 401) {
+        auth.clear();
       }
     };
 
