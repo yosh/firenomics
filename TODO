@@ -18,3 +18,5 @@ Version 0.2:
     [ ] install
 
   [ ] /me page for when you are logged in
+
+  [ ] old service had /profile/{num} new has /profiles/{num}, revert to old
